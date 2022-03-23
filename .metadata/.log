@@ -1,0 +1,81 @@
+!SESSION 2022-03-21 14:16:01.581 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_292
+java.vendor=ojdkbuild
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-21 14:16:44.739
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\이준엽'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-03-22 16:06:38.570 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_292
+java.vendor=ojdkbuild
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-22 16:06:57.679
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\이준엽'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-03-23 10:12:53.500 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_292
+java.vendor=ojdkbuild
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-23 10:13:10.303
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\이준엽'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.security 1 0 2022-03-23 14:58:06.021
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.egit.core 4 0 2022-03-23 14:58:27.333
+!MESSAGE An exception occurred during push on URI https://github.com/yubmun/JavaStudy: https://github.com/yubmun/JavaStudy: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/yubmun/JavaStudy: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:571)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:467)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1367)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:211)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-03-23 15:01:00.037
+!MESSAGE An exception occurred during push on URI https://github.com/yubmun/JavaStudy: https://github.com/yubmun/JavaStudy: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/yubmun/JavaStudy: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:571)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:467)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1367)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:211)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-03-23 15:02:30.759
+!MESSAGE An exception occurred during push on URI https://github.com/yubmun/JavaStudy: https://github.com/yubmun/JavaStudy: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/yubmun/JavaStudy: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:571)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:467)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1367)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:211)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)

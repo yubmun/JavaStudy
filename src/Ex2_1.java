@@ -7,6 +7,7 @@ public class Ex2_1 {
 		System.out.println(5-3);
 		System.out.println(5*3);
 		System.out.println(5/3);
+		System.out.println(5/3);
 	}
 
 }
